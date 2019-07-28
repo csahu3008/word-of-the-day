@@ -1,0 +1,26 @@
+{% extends "Base.html" %}
+{% block title %}
+<title>Recently Added</title>
+{% load static %}
+<link href={% static 'css/Home.css' %}  rel=stylesheet >
+{% endblock title %}
+{% block content %}
+<h1 >WORD OF THE DAY</h1>
+{% for K in object_list %}
+<div class='cl'>
+   <a class='buttons' href='{% url 'Update' K.pk %}' >+ UPDATE WORD</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+  <a class='buttons' href='{% url 'Delete' K.pk %}''>+ DELETE WORD</a>
+ <P>{{K.Date_posted}}<p>
+ <P>Word:<a class='speacial' href='{% url 'Detail' K.pk %}'>{{K.Word}} </a></p>
+ <P>Meaning:{{K.Meaning}}<p>
+ <P>Synonyms:{{K.Synonyms}}<p>
+ <P>Antonyms:{{K.Antonyms}}<p>
+ <P>Examples:{{K.Examples}}<p>
+ <P>Added By:{{K.AddedBy}}<p>
+ </div>
+{% endfor %}
+ </div>
+ <script type="text/javascript" src={% static 'js/Home.js' %} >
+ </script>
+{% endblock content %}

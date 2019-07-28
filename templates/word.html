@@ -1,0 +1,20 @@
+{% extends "Base.html" %}
+{% block title %}
+{% load static %}
+    <link href={% static 'css/Base.css' %} rel='stylesheet'>
+<title>
+{{object.Date_posted}}</title>
+{% endblock title %}
+
+{% block content %}
+<div class='cl'>
+ <a href={% url 'Update' object.pk %} >+ UPDATE WORD</a>
+ <P>{{object.Date_posted}}<p>
+ <P>Word:{{object.Word}}<p>
+ <P>Meaning:{{object.Meaning}}<p>
+ <P>Synonyms:{{object.Synonyms}}<p>
+ <P>Antonyms:{{object.Antonyms}}<p>
+ <P>Examples:{{object.Examples}}<p>
+ <P>Added By:{{object.AddedBy}}<p>
+</div>
+{% endblock content %}

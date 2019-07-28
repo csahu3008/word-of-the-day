@@ -1,0 +1,113 @@
+html{
+    background-size: cover;
+    background-color:red;
+    color:white;
+}
+
+a{ font-size:20px;
+    color:white;
+    text-decoration: none;
+}
+
+form{
+    border:2px solid yellow;
+    transform:translate(40%,10%);
+    padding:20px;
+    opacity: 100%;
+    font-size:20px;
+    letter-spacing:2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:green;
+    width:50%;
+    align-content: center;
+}
+
+.urls a{
+    background-color:white;
+    padding:20px;
+    align-content: center;
+    color:red;
+    border-radius:40px;
+
+}
+.urls a:hover{
+    color:white;
+    background-color:orange;
+}
+.urls{
+    margin-top:70px;
+    margin-left: 400px;
+
+}
+form input[type='submit']{
+    color:red;
+    background-color:white;
+    padding:10px 20px;
+    border:2px solid red;
+    border:2px solid transparent;
+    border-radius: 20px;
+    font-size:20px;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+
+}
+button{
+    color:red;
+    background-color:white;
+    padding:10px 20px;
+    border:2px solid red;
+    border:2px solid transparent;
+    border-radius: 20px;
+    font-size:20px;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+
+}
+button:hover{
+    color:white;
+    background-color:orange;
+}
+form input[type='text']
+{
+    margin-left:40px;
+    border-radius: 10px;
+    padding:10px;
+    color:blue;
+    font-weight: bold;
+    margin-left:20px;
+}
+form input[type='password']
+{
+    margin-left:40px;
+    border-radius: 10px;
+    padding:10px;
+    color:blue;
+    font-weight: bold;
+    margin-left:20px;
+}
+.new{
+    border:2px solid white;
+    background-color: white;
+    margin-left:20px;
+    padding:15px;
+    color:red;
+    border-radius:20px;
+
+}
+.new:hover{
+    color:white;
+    background-color:red;
+}
+li{
+    display: none;
+}
+span{
+    display: none;
+}
+form input[type='text']{
+    margin-left: 200px;
+}
+form input[type='password']{
+    margin-left: 200px;
+}
+#id_password2{
+    margin-left: 50px;
+}

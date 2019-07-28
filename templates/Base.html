@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+{% load static %}
+    <link href={% static 'css/Base.css' %} rel='stylesheet'>
+    <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+     {% block title %}
+     {% endblock title %}
+</head>
+<body>
+ <div class='icons'>
+ <a class='buttons' id='buttons' href='{% url 'HOME' %}'>HOMEPAGE</a><a class='buttons' id='buttons' href='{% url 'NEW' %}'>+ADD NEW WORD</a>
+  </div>
+ {% if user.is_authenticated %}
+  <h2>  welcome  {{user.username}}</h2>
+  <h3>  <a id='buttons' class='buttons' href={% url 'logout' %}>LOG OUT</a></h3>
+{% else %}
+    <h3>  <a id='buttons' class='buttons' href='{% url 'login' %}'>LOGIN NOW</a></h3>
+{% endif %}
+<div class='urls'>
+   
+</div>
+    <p>{% block content %}
+        {% endblock content %}</P>
+</body>
+</html>

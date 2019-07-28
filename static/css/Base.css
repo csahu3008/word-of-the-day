@@ -1,0 +1,128 @@
+html{
+    background-size: cover;
+    background-color:red;
+    color:white;
+    }
+
+a{ font-size:20px;
+    color:white;
+    text-decoration: none;
+}
+
+.cl{
+    border:4px solid yellow;
+    border-style: inset;
+    transform:translate(40%,10%);
+     padding:20px;
+    opacity: 100%;
+    font-size:20px;
+    letter-spacing:2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:green;
+    width:50%;
+    
+    }
+
+.urls a{
+    background-color:white;
+    padding:20px;
+    align-content: center;
+    color:red;
+    border-radius:40px;
+
+}
+.urls a:hover{
+    color:white;
+    background-color:orange;
+}
+.urls{
+    margin-top:70px;
+    margin-left: 400px;
+
+}
+form input[type='submit']{
+    color:red;
+    background-color:white;
+    padding-left:20px;
+    border:2px solid transparent;
+    padding-right:20px;
+    border-radius: 20px;
+    font-size:20px;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+
+}
+form input[type='submit']:hover{
+    color:white;
+    background-color:orange;
+}
+form input[type='text']{
+    margin-left:40px;
+    border-radius: 10px;
+    padding:5px;
+    color:blue;
+    margin-left:20px;
+}
+#buttons{
+    color:red;
+    display: block;
+    width:30%;
+    background-color:white;
+    padding:10px 20px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+    margin-left: 20px;
+     font-size:20px;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#buttons:hover{
+    color:white;
+    background-color:orange;
+}
+.icons{
+    margin-left:2px;
+    margin-top:50px;
+}
+h1{
+    color:yellow;
+    font-size:60px;
+    text-align: center;
+  
+
+}
+h2{
+    color:white;
+    font-size:40px;
+    text-align: center;
+  
+}
+form input[type='text']{
+    margin-left:200px;
+    padding:10px;
+    font-weight: bold;
+}
+#id_meaning{
+    margin-left:160px;
+    padding:10px;
+    font-weight: bold;
+}
+#id_synonyms{
+    margin-left:150px;
+    padding:10px;
+    font-weight: bold;
+}
+#id_antonyms{
+    margin-left:150px;
+    padding:10px;
+    font-weight: bold;
+}
+#id_examples{
+    margin-left:150px;
+    padding:10px;
+    font-weight: bold;
+}
+#id_addedby{
+    margin-left:150px;
+    padding:10px;
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+{% extends "Base.html" %}
+{% block title %}
+{% load static %}
+    <link href={% static 'css/Base.css' %} rel='stylesheet'>
+<title>ADD_NEW_WORD
+</title>
+{% endblock title %}
+
+{% block content %}
+<div class='cl'>
+    <h2>ADD NEW WORD</h2>
+{% if user.is_authenticated %}
+<form action='' method="POST">
+   {% csrf_token %}
+    {{form.as_p }}   
+<input type='submit' value='value' />
+</form> 
+</div>
+{% else %}
+<p>you need to login first</p>
+<a href='{% url 'login' %}'>LOGIN</a>
+{% endif %}
+{% endblock content %}

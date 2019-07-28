@@ -1,0 +1,59 @@
+html{
+    background-size:contain;
+    background-color:red;
+
+   
+}
+a{ font-size:20px;
+    color:white;
+    text-decoration: none;
+}
+
+.cl{
+    border:4px solid white;
+    border-style: inset;
+    margin-top:20px;
+    transform:translate(50%,0%);
+     background-color:green;
+    background-size:cover;
+    padding:20px;
+    font-size:25px;
+    color:white;
+    letter-spacing:2px;
+    font-family: 'sans-serif';
+    width:50%;
+   
+}
+.buttons{
+  color:red;
+  background-color:white;
+  padding:10px 20px;
+  border:2px solid red;
+  border:2px solid transparent;
+  border-radius: 20px;
+  font-size:20px;
+  font-family:Calibri, 'Trebuchet MS', sans-serif;
+}
+.buttons:hover{
+  color:white;
+  background-color:orange;
+}
+.speacial{
+ font-size:20px;
+ font-family:Calibri, 'Trebuchet MS', sans-serif;
+}
+#buttons{
+  color:red;
+  background-color:white;
+  padding:10px 20px;
+  margin-left: 20px;
+  border-radius: 0px;
+  border:2px solid transparent;
+  font-size:20px;
+  font-family:Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#buttons:hover{
+  color:white;
+  background-color:orange;
+}
